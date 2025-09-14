@@ -37,7 +37,7 @@ buttonColor.addEventListener("click", function() {
 const buttonChangeAlumno = document.getElementById("buttonChangeAlumno"); 
 
 //Documento de informacion de alumnos
-const informacionTxt=["alumno1","alumno2","alumno3"]
+const informacionTxt=["alumno1.txt","alumno2.txt","alumno3.txt"]
 
 //Imagenes de alumnos 
 const nameImg = ["teto.jpg", "studioPolis.png","Spider.jpg"]; 
