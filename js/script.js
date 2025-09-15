@@ -40,16 +40,16 @@ const buttonChangeAlumno = document.getElementById("buttonChangeAlumno");
 const informacionTxt=["alumno1.txt","alumno2.txt","alumno3.txt"]
 
 //Imagenes de alumnos 
-const nameImg = ["salvador.jpg", "jorge.png","teto.jpg"]; 
+const nameImg = ["salvador.jpg", "jorge.jpg","fernanda.png"]; 
 
 //Nombre de los alumnos
-const nameAL = ["Salvador Juárez Morales", "Perez Manriquez Jorge Luis","Fernanda"]; 
+const nameAL = ["Salvador Juárez Morales", "Perez Manriquez Jorge Luis","Arreola García Vanessa Fernanda"]; 
 
 //Numero de control de alumnos
-const numControlAL= ["22030828","22030038","00000000"]
+const numControlAL= ["22030828","22030038","21031024"]
 
 //Semestre de alumnos
-const semestreAL=["7","7","7"]
+const semestreAL=["7","7","9"]
 
 let index=0
 
