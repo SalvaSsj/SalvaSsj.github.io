@@ -1,3 +1,7 @@
 Nombre: Perez Manriquez Jorge Luis
 Número de Control: 22030038
 Semestre: 7
+
+
+Descrpcion:
+Soy estudiante de Ingeniería en Sistemas Computacionales, me gusta mucho la programación debido a los grandes retos de diferentes indoles que puede proporcionar. Me gusta resolver problemas utilizando el pensamiento lógico y crítico. Amo escuchar música y si empiezo a hacer algo, no voy parar hasta terminarlo.
