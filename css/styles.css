@@ -47,3 +47,16 @@ nav {
     color: white;
     border-radius: 9px;
 }
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    nav{
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+  

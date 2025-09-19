@@ -51,6 +51,12 @@ const numControlAL= ["22030828","22030038","21031024"]
 //Semestre de alumnos
 const semestreAL=["7","7","9"]
 
+//Descripcion de los alumnos
+const descAL=[
+    "Habilidoso para la mitad de las cosas y si no me lo invento como solucionarlo, aprendiz del momento y la situacion, programador disponible a todo menos a salir de fiesta a las 8 pm",
+    "Soy estudiante de Ingeniería en Sistemas Computacionales, me gusta mucho la programación debido a los grandes retos de diferentes indoles que puede proporcionar. Me gusta resolver problemas utilizando el pensamiento lógico y crítico. Amo escuchar música y si empiezo a hacer algo, no voy parar hasta terminarlo",
+    "Me gusta mucho el arte sobre todo las ramas del dibujo y la pintura, la programación que mas me gusta es la web ya que es mas diversa en el diseño."]
+
 let index=0
 
 // Agregamos un evento "click" al botón 
@@ -66,6 +72,10 @@ buttonChangeAlumno.addEventListener("click", function() {
 
     //Semestre de alumnos
     document.getElementById("alumnoSM").textContent = semestreAL[index];
+
+    //Descripcion de alumnos
+    document.getElementById("alumnoDesc").textContent = descAL[index];
+
 
     // Limpiar el contenedor antes de crear el nuevo QR
     const qrContainer = document.getElementById("qrcode");

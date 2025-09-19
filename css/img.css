@@ -1,4 +1,3 @@
-
 /* TARJETAS DE FOTO*/ 
 img {
     display: block;
@@ -73,6 +72,14 @@ img {
       display: none;
     }
 }
-  
-#alumnoImg{
-    height: 320px;}
+
+#alumnoImg {
+  width: 100%;
+  max-width: 300px;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  position: relative;
+  background-color: #eee;
+}
+
+
